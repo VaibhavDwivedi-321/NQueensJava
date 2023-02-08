@@ -11,6 +11,8 @@ import projImg8 from "../assets/img/proj8.png";
 import projImg9 from "../assets/img/proj9.png";
 import projImg10 from "../assets/img/proj10.png";
 import projImg11 from "../assets/img/proj11.png";
+import projImg12 from "../assets/img/proj12.png";
+
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -25,10 +27,10 @@ export const Projects = () => {
       linked: "https://corptalks-feedback-vaibhav.onrender.com/"
     },
     {
-      title: "Tindog",
-      description: "A website for Dogs made using Bootstrap",
-      imgUrl: projImg2,
-      linked: "https://vaibhavdwivedi-321.github.io/Tindog-TinderForDogs/"
+      title: "My WeatherCard",
+      description: "A live weather application that utilises openweatherAPI to fetch data.",
+      imgUrl:projImg2,
+      linked: "https://vaibhavweather.onrender.com"
     },
     {
       title: "TodoList Node",
@@ -68,7 +70,7 @@ export const Projects = () => {
       title: "CSSPortfolio",
       description: "Portfolio made using CSS and Html",
       imgUrl: projImg8,
-      linked: "https://corptalks-feedback-vaibhav.onrender.com/"
+      linked: "https://vaibhavdwivedi-321.github.io/MyFirstCSSPortfolio/"
     },
     {
       title: "Newsletter MailChimp",
@@ -83,14 +85,19 @@ export const Projects = () => {
       linked: "https://vaibhavdwivedi-321.github.io/React.js-To-Do-List/"
     },
     {
-      title: "MyFirstSite",
-      description: "My first website made using minimal Html,CSS",
+      title: "Tindog",
+      description: "A website for Dogs made using Bootstrap",
       imgUrl: projImg11,
-      linked: "https://vaibhavdwivedi-321.github.io/HTMLPersonalSite/"
+      linked: "https://vaibhavdwivedi-321.github.io/Tindog-TinderForDogs/"
     },
-   
-  ];
+    {
+      title: "Personal Site",
+      description: "My first HTML Project",
+      imgUrl: projImg12,
+      linked: "https://vaibhavdwivedi-321.github.io/HTMLPersonalSite/"
+    }
 
+  ];
 
 
 
@@ -138,7 +145,7 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                   
+
                       <Row>
                         {
                           projects2.map((project, index) => {
@@ -154,7 +161,7 @@ export const Projects = () => {
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                       <p><a href="https://drive.google.com/file/d/1e00JhzZq82BzffwxRjbk9gqkf1YHGUZt/view?usp=share_link">My Resume</a></p>
-                      
+
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
